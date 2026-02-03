@@ -1,6 +1,6 @@
 [buildPlans.Iosthetic]
 family = "Iosthetic"
-spacing = "term"
+spacing = "fixed"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
