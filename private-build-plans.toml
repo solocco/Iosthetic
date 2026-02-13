@@ -1,111 +1,79 @@
 [buildPlans.Iosthetic]
 family = "Iosthetic"
-spacing = "fixed"
+spacing = "normal"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
+buildTextureFeature = true
 
-  [buildPlans.Iosthetic.variants]
-  inherits = "ss14"
+[buildPlans.Iosthetic.variants]
+inherits = "ss14"
 
-    [buildPlans.Iosthetic.variants.design]
-    one = "base"
-    two = "straight-neck-serifless"
-    three = "flat-top-serifless"
-    four = "semi-open-non-crossing-serifless"
-    five = "upright-arched-serifless"
-    six = "open-contour"
-    seven = "bend-serifless"
-    eight = "crossing-asymmetric"
-    nine = "open-contour"
-    zero = "slashed"
-    capital-b = "more-asymmetric-serifless"
-    capital-g = "toothless-corner-serifless-hooked"
-    capital-k = "straight-serifless"
-    capital-q = "crossing"
-    capital-w = "straight-serifless"
-    a = "single-storey-earless-corner-serifless"
-    b = "toothless-corner-serifless"
-    d = "toothless-corner-serifless"
-    e = "flat-crossbar"
-    f = "serifless"
-    g = "single-storey-earless-corner"
-    i = "serifed-flat-tailed"
-    j = "serifed"
-    k = "straight-serifless"
-    l = "serifed-flat-tailed"
-    m = "earless-corner-double-arch-short-leg-serifless"
-    n = "earless-corner-straight-serifless"
-    p = "earless-corner-serifless"
-    q = "earless-corner-straight-serifless"
-    r = "earless-corner-serifless"
-    t = "bent-hook"
-    u = "toothless-corner-serifless"
-    v = "straight-serifless"
-    w = "straight-serifless"
-    y = "straight-serifless"
-    punctuation-dot = "round"
-    tilde = "low"
-    asterisk = "penta-low"
-    underscore = "low"
-    paren = "normal"
-    brace = "curly"
-    number-sign = "slanted"
-    at = "compact"
-    cent = "bar-interrupted"
-    percent = "dots"
-    question = "smooth"
+[buildPlans.Iosthetic.variants.design]
+one = "base"
+two = "straight-neck-serifless"
+three = "flat-top-serifless"
+four = "semi-open-non-crossing-serifless"
+five = "upright-arched-serifless"
+six = "open-contour"
+seven = "bend-serifless"
+eight = "crossing-asymmetric"
+nine = "open-contour"
+zero = "slashed"
+capital-b = "more-asymmetric-serifless"
+capital-g = "toothless-corner-serifless-hooked"
+capital-k = "straight-serifless"
+capital-q = "crossing"
+capital-w = "straight-serifless"
+a = "double-storey-toothless-rounded"
+b = "toothless-corner-serifless"
+d = "toothless-corner-serifless"
+e = "flat-crossbar"
+f = "serifless"
+g = "single-storey-earless-corner"
+i = "serifed-flat-tailed"
+j = "serifed"
+k = "straight-serifless"
+l = "serifed-flat-tailed"
+m = "earless-corner-double-arch-short-leg-serifless"
+n = "earless-corner-straight-serifless"
+p = "earless-corner-serifless"
+q = "earless-corner-straight-serifless"
+r = "earless-corner-serifless"
+t = "bent-hook"
+u = "toothless-corner-serifless"
+v = "straight-serifless"
+w = "straight-serifless"
+y = "straight-serifless"
+punctuation-dot = "round"
+tilde = "low"
+asterisk = "penta-low"
+underscore = "low"
+paren = "normal"
+brace = "curly"
+number-sign = "slanted"
+at = "compact"
+cent = "bar-interrupted"
+percent = "dots"
+question = "smooth"
+lig-ltgteq = "slanted"
+lig-neq = "slightly-slanted"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+lig-plus-chain = "without-notch"
+lig-double-arrow-bar = "without-notch"
+lig-single-arrow-bar = "without-notch"
 
-    [buildPlans.Iosthetic.variants.italic]
-    one = "base"
-    two = "straight-neck-serifless"
-    three = "flat-top-serifless"
-    four = "semi-open-non-crossing-serifless"
-    five = "upright-arched-serifless"
-    six = "open-contour"
-    seven = "bend-serifless"
-    eight = "crossing-asymmetric"
-    nine = "open-contour"
-    zero = "slashed"
-    capital-b = "more-asymmetric-serifless"
-    capital-g = "toothless-corner-serifless-hooked"
-    capital-k = "straight-serifless"
-    capital-q = "crossing"
-    capital-w = "straight-serifless"
-    a = "single-storey-earless-corner-serifless"
-    b = "toothless-corner-serifless"
-    d = "toothless-corner-serifless"
-    e = "flat-crossbar"
-    f = "serifless"
-    g = "single-storey-earless-corner"
-    i = "serifed-flat-tailed"
-    j = "serifed"
-    k = "straight-serifless"
-    l = "serifed-flat-tailed"
-    m = "earless-corner-double-arch-short-leg-serifless"
-    n = "earless-corner-straight-serifless"
-    p = "earless-corner-serifless"
-    q = "earless-corner-straight-serifless"
-    r = "earless-corner-serifless"
-    t = "bent-hook"
-    u = "toothless-corner-serifless"
-    v = "straight-serifless"
-    w = "straight-serifless"
-    y = "straight-serifless"
-    punctuation-dot = "round"
-    tilde = "low"
-    asterisk = "penta-low"
-    underscore = "low"
-    paren = "normal"
-    brace = "curly"
-    number-sign = "slanted"
-    at = "compact"
-    cent = "bar-interrupted"
-    percent = "dots"
-    question = "smooth"
+[ligations]
+inherits = "default-calt"
+enables = [
+  "eqeqeq", # Triple-line equality ligation
+  "exeqeq", # Triple-line inequality ligation
+]
+
 
 [buildPlans.Iosthetic.weights.Regular]
-shape = 400
+shape = 415
 menu = 400
 css = 400
 
@@ -115,14 +83,14 @@ menu = 700
 css = 700
 
 [buildPlans.Iosthetic.weights.Medium]
-shape = 500
+shape = 510
 menu = 500
 css = 500
 
-[buildPlans.Iosthetic.weights.SemiBold]
-shape = 600
-menu = 600
-css = 600
+[buildPlans.Iosthetic.widths.Normal]
+shape = 604
+menu = 5
+css = "normal"
 
 [buildPlans.Iosthetic.slopes.Upright]
 angle = 0
@@ -131,7 +99,7 @@ menu = "upright"
 css = "normal"
 
 [buildPlans.Iosthetic.slopes.Italic]
-angle = 9.4
+angle = 9.5
 shape = "italic"
 menu = "italic"
 css = "italic"
@@ -140,4 +108,34 @@ css = "italic"
 # Certain metrics like line height (leading) could be overridden in your build plan file.
 # Edit the values to change the metrics. Remove this section when overriding is not needed.
 [buildPlans.Iosthetic.metricOverride]
-leading = 1250
+xHeight = 540
+cap = 720
+ascender = 735
+sb = 'blend(weight, [400, 90], [700, 78])'
+
+accentWidth = 200
+accentClearance = 80
+accentHeight = 170
+accentStackOffset = 208
+
+# From my experience on macOS, different editors seem to treat leading differently:
+# - some ignore it altogether (e.g. VS Code)
+# - others seem to react to changing leading in steps (e.g. Xcode, where nothing happens until it crosses a
+#   certain threshold where it suddenly becomes way tighter or way more relaxed).
+# Leading also affects how text selection is rendered (too much leading -> text sits too on low in selection background).
+# This value seemed a decent compromise for the set of apps I'm using and my preferences, YMMV.
+leading = 1170
+parenSize = 950
+# Using defaults for dotSize, but we could do something like this:
+# dotSize = 'blend(weight, [100, 120], [400, 135], [900, 170])'
+periodSize = 150
+
+essRatio = 1.03
+essRatioUpper = 1.03
+essRatioLower = 1.03
+essRatioQuestion = 1.03
+
+# These basically define the squareness/roundness of the character shapes.
+# Default iosevka is around 200, while 160 gets us to Berkeley Mono territory.
+archDepth = 185
+smallArchDepth = 190
